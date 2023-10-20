@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.flex_start_end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex_align_center {
+    display: flex;
+    align-items: center;
+}
+
+.flex_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex_evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* flex换行 */
+.flex_wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* flex居中 纵行 */
+.flex_center_column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* flex 两侧布局 纵行 */
+.flex_around_row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+/* flex可换行 */
+.flex_wrap {
+    flex-wrap: wrap;
+}
+
+/* flex定位底部 纵行 */
+.flex_end_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.mragin_zero {
+    margin: 0;
+}
+
+.margin_center {
+    margin: 0 auto;
+}
+
+
+.ml1 {
+    margin-left: 10px;
+}
+
+.mr1 {
+    margin-right: 10px;
+}
+
+.mt1 {
+    margin-top: 10px;
+}
+
+.mb1 {
+    margin-bottom: 10px;
+}
+
+.mt2 {
+    margin-top: 20px;
+}
+
+/* 字体下划线 */
+.text_line {
+    text-decoration: underline;
+}
+
+/* 重置hr样式 */
+hr {
+    background-color: rgb(221, 221, 221);
+    height: 1px;
+}
+
+/* 重置a样式 */
+a {
+    color: #222;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* 字体中间显示 */
+.text_center {
+    text-align: center;
+}
+
+.width419 {
+    width: 419px;
+}
+
+.width200 {
+    width: 200px;
+}
+
+/* 相对布局 */
+.relative {
+    position: relative;
+}
+
+/* 绝对布局 */
+.absolute {
+    position: absolute;
+}
+
+/* border20px + 适配 */
+.border1 {
+    border-radius: 20px;
+}

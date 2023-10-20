@@ -1,0 +1,133 @@
+/* 整体架构 */
+
+.service_nav_wrap {
+    height: 640px;
+    padding: 120px 0;
+}
+
+/* service_nav_info */
+
+.service_nav_info {
+    padding-left: 39px;
+    height: 320px;
+    width: 1492px;
+}
+
+.category_info {
+    height: 210px;
+}
+
+.category_info p {
+    width: 800px;
+    font-size: 58px;
+    color: #222222;
+}
+
+.category_number {
+    width: 500px;
+}
+
+.category_number .item {
+    width: 250px;
+    height: 78px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    border-left: 4px solid rgb(246, 242, 243) ; 
+}
+
+.category_number .item div {
+    margin-left: 17px;
+}
+
+.category_number .item div .count {
+    font-size: 44px;
+    color: #FF6600;
+    height: 44px;
+    width: 214px;
+    line-height: 44px;
+}
+
+.category_number .item div .category {
+    color: #51200B;
+    font-size: 20px;
+    height: 26px;
+    width: 214px;
+}
+
+/* service_nav_intr */
+
+.service_nav_intr {
+    width: 1665px;
+    padding-left: 75px;
+}
+
+.service_nav_intr .item_wrap {
+    width: 185px;
+    height: 140px;
+}
+
+.service_nav_intr .item {
+    width: 140px;
+    height: 140px;
+    box-sizing: border-box;
+    border-radius: 9999px;
+    border: 1px solid #aaa;
+}
+
+.service_nav_intr .intr_one {
+    margin-bottom: 20px;
+}
+
+.service_nav_intr .item img {
+    width: 48px;
+    height: 48px;
+}
+
+.service_nav_intr .item p {
+    width: 100px;
+    height: 32px;
+    font-size: 12px;
+    color: #222222;
+    text-align: center;
+}
+
+/* service_nav_intr_wrap */
+
+.service_nav_intr_wrap {
+    position: relative;
+}
+
+.white_left {
+    position: absolute;
+    left: 0;
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: #fff 70px 0 50px 23px ;
+}
+
+.white_right {
+    position: absolute;
+    right: 0;
+    width: 460px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: #fff -70px 0 50px 23px ;
+}
+
+.service_nav .arrow_wrap {
+    width: 1490px;
+    position: absolute;
+    bottom: 120px;
+    left: 550px;
+    height: 60px;
+}
+
+.arrow_wrap div, .arrow_wrap img {
+    width: 60px;
+    height: 60px;
+}
+
+.right_arrow {
+    transform: rotate(180deg);
+}

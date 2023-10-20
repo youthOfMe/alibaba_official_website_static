@@ -1,0 +1,50 @@
+.countries_regions {
+    width: 1492px;
+    padding-left: 39px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.countries_regions>p {
+    height: 40px;
+    margin: 32px 0;
+    font-size: 32px;
+    color: #222;
+}
+
+.countries_regions .list .item,.countries_regions .list .arrow {
+    width: 120px;
+    height: 98px;
+    padding: 16px 24px;
+    text-align: center;
+}
+
+.countries_regions .list .item .img {
+    width: 66px;
+    height: 66px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 9999px;
+    margin: 0 auto;
+}
+
+.countries_regions .list .item .img>img {
+    width: 48px;
+    height: 48px;
+    margin-top: 9px;
+}
+
+.countries_regions .list .item p {
+    margin-top: 10px;
+}
+
+.countries_regions .list .arrow {
+    transform: rotate(180deg);
+    text-align: center;
+}
+
+.countries_regions .list .arrow img {
+    width: 48px;
+    height: 48px;
+    padding-top: 25px;
+}

@@ -1,0 +1,92 @@
+.global_trade_wrap {
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.global_trade {
+    width: 1492px;
+    padding-left: 39px;
+    display: flex;
+    flex-direction: column;
+}
+
+.global_trade>.text_info>p {
+    text-align: center;
+}
+
+.global_trade>.text_info>p:nth-child(1) {
+    height: 70px;
+    margin-top: 120px;
+    color: #51200B;
+    font-size: 58px;
+}
+
+.global_trade>.text_info>p:nth-child(2) {
+    margin-top: 20px;
+    height: 52px;
+    font-size: 20px;
+    color: #666666;
+}
+
+.global_trade>.image_info {
+    width: 1440px;
+    margin-top: 40px;
+}
+
+.global_trade .image_info .mission_info, .global_trade .image_info .location_and_promise {
+    width: 704px;
+    height: 600px;
+}
+
+.global_trade .image_info .mission_info {
+    background: url('https://s.alicdn.com/@img/imgextra/i1/O1CN01ZUhAEZ1plFc5piQ6Z_!!6000000005400-0-tps-1408-1200.jpg');
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.global_trade .image_info .location_info {
+    height: 323px;
+    background: url('https://s.alicdn.com/@img/imgextra/i3/O1CN01AuT5oO1CpaMXEBGOd_!!6000000000130-0-tps-1410-646.jpg');
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.global_trade .image_info .promise_info {
+    height: 245px;
+    background: url('https://s.alicdn.com/@img/imgextra/i2/O1CN01KXAelN1CWLiBLU7x9_!!6000000000088-0-tps-1408-490.jpg');
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.global_trade .image_info .mission_info>p:nth-child(2), .global_trade .image_info .promise_info>p:nth-child(2) {
+    margin: 0 32px 32px 32px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.global_trade .image_info .mission_info>p:nth-child(1), .global_trade .image_info .promise_info>p:nth-child(1), .global_trade .image_info .location_info .title>p:nth-child(1) {
+    margin: 0 32px 4px 32px;
+    color: #FF6600;
+    font-weight: 600;
+}
+
+.global_trade .image_info .location_info .title {
+    width: 504px;
+    height: 100%;
+}
+
+.global_trade .image_info .location_info .title>p:nth-child(2) {
+    color: #51200B;
+    font-size: 32px;
+    margin: 0 32px 32px 32px;
+    font-weight: 700;
+}
+
+.global_trade .image_info .location_info>p {
+    margin: 20px 20px 0 0;
+    color: #51200B;
+    font-size: 14px;
+    width: 126px;
+}
+

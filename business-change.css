@@ -1,0 +1,177 @@
+.business_change_wrap {
+    background-color: rgb(244, 244, 244);
+}
+
+.business_change {
+    width: 1492px;
+    padding: 90px 0;
+    padding-left: 39px;
+}
+
+.business_change>p {
+    color: #222;
+    font-size: 32px;
+    height: 40px;
+}
+
+.business_change .business_info {
+    margin-top: 52px;
+}
+
+.business_change .business_info .item_title p:nth-child(1) {
+    font-size: 24px;
+    color: #222;
+}
+
+.business_change .business_info .item_title p:nth-child(2) {
+    color: #333;
+    text-decoration: underline;
+}
+
+.business_change .business_info .top_ranking {
+    width: 459px;
+}
+
+.business_change .business_info .top_ranking>.item, .business_change .business_info .new_arrival>.item, .business_change .business_info .spotlight>.item {
+    width: 419px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+
+.business_change .business_info .top_ranking .item p:nth-child(1), .business_change .business_info .new_arrival .item p:nth-child(1), .business_change .business_info .spotlight .item p:nth-child(1) {
+    font-size: 20px;
+    color: #222;
+    font-weight: 600;
+}
+
+.business_change .business_info .top_ranking .item>p:nth-child(2) {
+    color: #666;
+    margin-top: 3px;
+}
+
+.business_change .business_info .top_ranking .item .main_img {
+    position: relative;
+    margin-top: 24px;
+}
+
+.business_change .business_info .top_ranking .item .main_img img {
+    width: 419px;
+    height: 419px;
+    border-radius: 20px
+}
+
+.business_change .business_info .top_ranking .item .main_img .img_back {
+    position: absolute;
+    top: 0;
+    width: 419px;
+    height: 419px;
+    background-color: rgba(0,0,0,0.04);
+    border-radius: 20px;
+}
+
+.business_change .business_info .top_ranking .item .subplot, .business_change .business_info .top_ranking .item div:last-child {
+    width: 419px;
+}
+
+.business_change .business_info .top_ranking .item .subplot .item {
+    margin-top: 20px;
+    position: relative;
+    margin-right: 17px;
+}
+
+.business_change .business_info .top_ranking .item .subplot .item img {
+    width: 128px;
+    height: 128px;
+    border-radius: 15px;
+}
+
+.business_change .business_info .top_ranking .item .subplot .item .img_back {
+    position: absolute;
+    top: 0;
+    width: 128px;
+    height: 128px;
+    background-color: rgba(0,0,0,0.04);
+    border-radius: 15px;
+}
+
+.business_change .business_info .top_ranking .item div:last-child div {
+    margin: 5px auto 0 auto;
+    width: 100px;
+}
+
+.business_change .business_info .top_ranking .item div:last-child p {
+    width: 8px;
+    height: 8px;
+    background-color: #999999;
+    border-radius: 999px;
+}
+
+.business_change .business_info .top_ranking .item div:last-child p:nth-child(3) {
+    background-color: #222;
+}
+
+.img_back {
+    position: absolute;
+    top: -15px;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0,0,0,0.04);
+    border-radius: 15px;
+}
+
+.business_change .business_info .new_arrival .item div {
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
+.business_change .business_info .new_arrival .item_foot, .business_change .business_info .spotlight .item_head {
+    margin-top: 10px;
+    width: 419px;
+    height: 132px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.business_change .business_info .new_arrival .item_foot img, .business_change .business_info .spotlight .item_head img {
+    width: 132px;
+    height: 132px;
+    margin-right: 20px
+}
+
+.business_change .business_info .new_arrival .item_foot div p:nth-child(1), .business_change .business_info .spotlight .item_head div p {
+    color: #222;
+    font-size: 20px;
+}
+
+.business_change .business_info .new_arrival .item_foot div p:nth-child(2) {
+    color: #767676;
+    font-size: 14px;
+}
+
+.business_change .business_info .item .main_img>.tags {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    background-color: #fff;
+    border-radius: 9999px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    width: 180px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.business_change .business_info .item .main_img>.tags span {
+    font-weight: 700;
+}
+
+.business_change .business_info .subplot .item .main_img>.img_backs {
+    width: 419px;
+    height: 419px;
+}

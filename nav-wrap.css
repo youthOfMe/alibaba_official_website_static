@@ -1,0 +1,40 @@
+.nav_wrap {
+    background-color: #51200B;
+}
+
+.nav {
+    width: 1570px;
+    margin: 0 auto;
+    height: 458px;
+}
+
+.nav_item {
+    background-color: rgb(86, 39, 19);
+    height: 258px;
+    width: 256px;
+    border-radius: 20px;
+    padding: 40px ;
+}
+
+.nav_item .icon {
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 9999px;
+    background-color: rgb(99, 56, 38);
+}
+
+.nav_item img {
+    width: 40px;
+    height: 40px;
+}
+
+.nav_item p:nth-child(2) {
+    color: #fff;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.nav_item p:nth-child(3) {
+    color: #fff;
+}

@@ -1,0 +1,160 @@
+.header_and_searchbar {
+    background-color: black;
+}
+
+.main_wrap {
+    width: 2060px;
+    margin: 0 auto;
+    height: 660px;
+    background :url("https://s.alicdn.com/@img/imgextra/i1/O1CN019pxhXm26Fy2GEGlVO_!!6000000007633-0-tps-3840-1320.jpg");
+    background-size: cover;
+}
+
+.main {
+    width: 1580px;
+    margin: 0 auto;
+}
+
+.main_head {
+    height: 120px;
+    margin-left: 20px;
+}
+
+.main_head_tnh {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main_head_tnh img {
+    width: 209px;
+    height: 29px;
+}
+
+.functional {
+    width: 550px;
+    height: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    font-size: 14px;
+}
+
+.functional div {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    justify-content: space-around;
+}
+
+.china img {
+    width: 23px;
+    height: 16px;
+}
+
+.language img, .sign_in img {
+    width: 24px;
+    height: 24px;
+}
+
+.sign_in p {
+    padding-right: 30px;
+}
+
+.sign_up {
+    height: 36px;
+    background-color: #FF6600;
+    border-radius: 9999px;
+    line-height: 120px;
+}
+
+.head_nav div {
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.head_nav img {
+    width: 14px;
+    height: 15px;
+}
+
+.head_nav p {
+    height: 14px;
+    margin-right: 30px;
+}
+
+.main_info {
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.start_learn {
+    color: #fff;
+    font-size: 20px;
+}
+
+.start_learn img {
+    width: 24px;
+    height: 24px;
+}
+
+.main_info p {
+    color: #fff;
+    font-size: 58px;
+}
+
+.search {
+    margin-top: 35px;
+    height: 56px;
+    width: 786px;
+    background-color: #fff;
+    border-radius: 9999px;
+    padding-left: 30px;
+    color: #aaa;
+    justify-content: space-between;
+}
+
+.search .search_button {
+    width: 125px;
+    height: 48px;
+    background-color: #FF6600;
+    border-radius: 9999px;
+    margin-right: 4px;
+}
+
+.search img {
+    width: 30px;
+    height: 26px;
+}
+
+.search_button .info img {
+    width: 20px;
+    height: 20px;
+}
+
+.search_button .info p {
+    font-size: 15px;
+    color: #fff;
+    height: 20px;
+    margin-left: 2px;
+}
+
+.frequently_search {
+    margin-top: 35px;
+}
+
+.frequently_search span {
+    color: #fff;
+    font-size: 16px;
+}
+
+.frequently_search p {
+    padding: 0 24px;
+    margin: 0 10px;
+    border: #fff solid 1px;
+    border-radius: 9999px;
+    font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+}
